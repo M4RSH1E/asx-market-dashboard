@@ -13,7 +13,6 @@ API_URL = 'https://migizitech.wixsite.com/asxprices/_functions/getasxprices'
 MEMBERSHIP_FILE = Path('membership.json')
 NAMES_FILE = Path(__file__).with_name('company_names.csv')
 
-@st.cache_data
 def load_company_names():
     if not NAMES_FILE.exists():
         return {}

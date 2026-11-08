@@ -11,6 +11,16 @@ import streamlit as st
 st.set_page_config(page_title='ASX Market Dashboard', layout='wide')
 API_URL = 'https://migizitech.wixsite.com/asxprices/_functions/getasxprices'
 MEMBERSHIP_FILE = Path('membership.json')
+NAMES_FILE = Path(__file__).with_name('company_names.csv')
+
+@st.cache_data
+def load_company_names():
+    if not NAMES_FILE.exists():
+        return {}
+    names = pd.read_csv(NAMES_FILE, dtype=str).fillna('')
+    if not {'Code', 'CompanyName'}.issubset(names.columns):
+        return {}
+    return dict(zip(names['Code'].str.strip().str.upper(), names['CompanyName'].str.strip()))
 
 # Authentication must run before any market-data API requests.
 try:
@@ -54,7 +64,7 @@ except (KeyError, FileNotFoundError):
 
 @st.cache_data(ttl=300, show_spinner='Retrieving ASX prices…')
 def get_prices(key):
-    response = requests.get(API_URL, params={'apikey': key}, timeout=45)
+    response = requests.get(API_URL, params={'apikey': key, 'group': 'core'}, timeout=45)
     response.raise_for_status()
     raw = response.json()
     if isinstance(raw, dict):
@@ -74,6 +84,9 @@ def get_prices(key):
     else:
         df['CompanyName'] = ''
     df['Code'] = df['Code'].astype(str).str.strip().str.upper()
+    # Company names are not supplied by this API. Join the local CSV lookup.
+    lookup = load_company_names()
+    df['CompanyName'] = df['Code'].map(lookup).fillna('')
     df.loc[df['CompanyName'].isin(['', 'nan', 'None']), 'CompanyName'] = df['Code']
     for col in ['MCm', 'Price', 'Chg', 'ChgPc']:
         df[col] = pd.to_numeric(df[col].astype(str).str.replace(',', '', regex=False).str.replace('%', '', regex=False), errors='coerce')
@@ -107,6 +120,9 @@ def market_view():
         st.error(f'Unable to retrieve prices: {exc}')
         return
     membership = load_membership()
+    missing_names = sum(code not in load_company_names() for code in prices['Code'].head(300))
+    if missing_names:
+        st.caption(f'Company-name lookup has {len(load_company_names())} entries; tickers without a matching name will show the ticker until the CSV is expanded.')
     if membership is None:
         st.info('No saved company list yet. Select **Refresh Top 25 / Top 300 membership** below to initialise.')
     if st.button('Refresh Top 25 / Top 300 membership', type='primary'):

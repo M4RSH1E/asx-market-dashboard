@@ -1,4 +1,5 @@
 import json
+import hmac
 from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -10,13 +11,44 @@ st.set_page_config(page_title='ASX Market Dashboard', layout='wide')
 API_URL = 'https://migizitech.wixsite.com/asxprices/_functions/getasxprices'
 MEMBERSHIP_FILE = Path('membership.json')
 
-st.title('ASX Market Dashboard')
+# Authentication must run before any market-data API requests.
+try:
+    dashboard_password = st.secrets['DASHBOARD_PASSWORD']
+except (KeyError, FileNotFoundError):
+    st.error('Set DASHBOARD_PASSWORD in Streamlit Secrets before deploying.')
+    st.stop()
+
+if not isinstance(dashboard_password, str) or len(dashboard_password) < 12:
+    st.error('DASHBOARD_PASSWORD must be a string with at least 12 characters.')
+    st.stop()
+
+if not st.session_state.get('authenticated', False):
+    st.title('ASX Market Dashboard')
+    st.caption('Private dashboard access')
+    with st.form('login_form'):
+        entered_password = st.text_input('Password', type='password')
+        submitted = st.form_submit_button('Sign in')
+    if submitted:
+        if hmac.compare_digest(entered_password, dashboard_password):
+            st.session_state.authenticated = True
+            st.rerun()
+        else:
+            st.error('Incorrect password.')
+    st.stop()
+
+header, logout = st.columns([5, 1])
+with header:
+    st.title('ASX Market Dashboard')
+with logout:
+    if st.button('Log out'):
+        st.session_state.authenticated = False
+        st.rerun()
 st.caption('ASX Equity Stocks API · Personal research dashboard · Prices may be delayed or inaccurate')
 
 try:
     api_key = st.secrets['ASX_API_KEY']
 except (KeyError, FileNotFoundError):
-    st.error('Add ASX_API_KEY to Streamlit secrets before continuing.')
+    st.error('Add ASX_API_KEY to Streamlit Secrets before continuing.')
     st.stop()
 
 @st.cache_data(ttl=300, show_spinner='Retrieving ASX prices…')

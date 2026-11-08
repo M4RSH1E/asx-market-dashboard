@@ -109,6 +109,17 @@ def market_view():
     if membership is None:
         return
     st.caption('Membership last recalculated: ' + membership['updated_at'] + ' · Prices cache up to 5 minutes. Membership is saved on this server.')
+    def colour_change(value):
+        """Muted red/green diverging scale, saturating at +/- 5%."""
+        if pd.isna(value):
+            return ''
+        strength = min(abs(float(value)) / 5.0, 1.0)
+        neutral = (242, 244, 247)
+        target = (22, 101, 52) if value > 0 else (153, 27, 27)
+        rgb = tuple(round(a + (b - a) * strength) for a, b in zip(neutral, target))
+        foreground = '#ffffff' if strength >= 0.58 else '#182230'
+        return f'background-color: rgb{rgb}; color: {foreground}; font-weight: 650;'
+
     def show_table(df, key):
         if df.empty:
             st.warning('No valid prices for this table.')
@@ -116,7 +127,9 @@ def market_view():
         display = df[['Code', 'Price', 'Chg', 'ChgPc', 'MCm']].rename(columns={
             'Code':'Ticker', 'Price':'Price (AUD)', 'Chg':'Change (AUD)',
             'ChgPc':'Change (%)', 'MCm':'Market cap (AUD m)'})
-        st.dataframe(display, hide_index=True, use_container_width=True,
+        table_data = (display.style.map(colour_change, subset=['Change (%)'])
+                      if key == 'top25' else display)
+        st.dataframe(table_data, hide_index=True, use_container_width=True,
                      column_config={'Price (AUD)':st.column_config.NumberColumn(format='$%.3f'),
                                     'Change (AUD)':st.column_config.NumberColumn(format='$%.3f'),
                                     'Change (%)':st.column_config.NumberColumn(format='%.2f%%'),
@@ -129,6 +142,7 @@ def market_view():
     a, b, c = st.tabs(['Top 25', 'Top 10 gainers', 'Top 10 losers'])
     with a:
         st.subheader('Top 25 by market capitalisation')
+        st.caption('Colour intensity reflects daily percentage movement, capped at ±5%.')
         show_table(top25, 'top25')
     with b:
         st.subheader('Top 10 gainers — Top 300 universe')

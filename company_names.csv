@@ -1,60 +1,1832 @@
 Code,CompanyName
-BHP,BHP Group Limited
-CBA,Commonwealth Bank of Australia
-CSL,CSL Limited
-NAB,National Australia Bank Limited
-WBC,Westpac Banking Corporation
-ANZ,ANZ Group Holdings Limited
-WES,Wesfarmers Limited
-MQG,Macquarie Group Limited
-RIO,Rio Tinto Limited
-FMG,Fortescue Limited
-WDS,Woodside Energy Group Ltd
-WOW,Woolworths Group Limited
-COL,Coles Group Limited
-TLS,Telstra Group Limited
-TCL,Transurban Group
-GMG,Goodman Group
-ALL,Aristocrat Leisure Limited
-REA,REA Group Ltd
-CAR,CAR Group Limited
-XRO,Xero Limited
-JHX,James Hardie Industries plc
-QBE,QBE Insurance Group Limited
-IAG,Insurance Australia Group Limited
-SUN,Suncorp Group Limited
-STO,Santos Limited
-ORG,Origin Energy Limited
-APA,APA Group
-S32,South32 Limited
-MIN,Mineral Resources Limited
-NST,Northern Star Resources Limited
-NEM,Newmont Corporation
-PLS,PLS Group Limited
-RMD,ResMed Inc.
-COH,Cochlear Limited
-SHL,Sonic Healthcare Limited
-RHC,Ramsay Health Care Limited
-BXB,Brambles Limited
-CPU,Computershare Limited
-SGP,Stockland
-GPT,GPT Group
-SCG,Scentre Group
-MGR,Mirvac Group
-DXS,Dexus
-VCX,Vicinity Centres
-ALD,Ampol Limited
-QAN,Qantas Airways Limited
-TWE,Treasury Wine Estates Limited
-ASX,ASX Limited
-SOL,Washington H. Soul Pattinson and Company Limited
-SEK,SEEK Limited
-PME,Pro Medicus Limited
-WTC,WiseTech Global Limited
-TPG,TPG Telecom Limited
+10X,Exultant Mining Limited
+14D,1414 Degrees Limited
+1AD,Adalta Limited
+1AE,Aurora Energy Metals Limited
+1AI,Algorae Pharmaceuticals Limited
+1CG,One Click Group Limited
+1MC,Morella Corporation Limited
+1TT,Thrive Tribe Technologies Limited
+29M,29Metals Limited
+360,Life360 Inc.
+3DA,Amaero Inc.
+3DP,Pointerra Limited
+3PL,3P Learning Limited..
+49M,49 Metals Limited
+4DS,4Ds Memory Limited
+4DX,4Dmedical Limited
+5GG,Pentanet Limited
+5GN,5G Networks Limited.
+6KA,"6K Additive, Inc."
+88E,88 Energy Limited
+8CO,8Common Limited
+8IH,8I Holdings Ltd
+A11,Atlantic Lithium Limited
+A1M,Aic Mines Limited
+A1N,Arn Media Limited
 A2M,The a2 Milk Company Limited
-MPL,Medibank Private Limited
-AMC,Amcor plc
-BSL,BlueScope Steel Limited
-ORI,Orica Limited
+A3D,Aurora Labs Limited
+A4N,Alpha Hpa Limited
+A8G,Australasian Metals Limited
+AA2,Ariana Resources Plc
+AAC,Australian Agricultural Company Limited.
+AAI,Alcoa Corporation
+AAJ,Aruma Resources Limited
+AAL,Alfabs Australia Limited
+AAM,Aumega Metals Ltd
+AAP,Australian Agricultural Projects Limited
+AAR,Astral Resources Nl
+AAU,Antilles Gold Limited
+ABB,Aussie Broadband Limited
+ABE,Australian Bond Exchange Holdings Limited
+ABG,Abacus Group
+ABR,Albright Metals Ltd
+ABV,Advanced Braking Technology Ltd
+ABX,Abx Group Limited
+ABY,Adore Beauty Group Limited
+ACE,Acusensus Limited.
+ACF,Acrow Limited
+ACL,Australian Clinical Labs Limited
+ACM,Australian Critical Minerals Limited
+ACP,Audalia Resources Limited
+ACQ,Acorn Capital Investment Fund Limited
+ACR,Acrux Limited
+ACS,Accent Resources Nl
+ACU,Acumentis Group Limited
+ACW,Actinogen Medical Limited
+AD1,Adneo Limited
+AD8,Audinate Group Limited
+ADC,Acdc Metals Ltd
+ADD,Adavale Resources Limited
+ADH,Adairs Limited
+ADN,Andromeda Metals Limited
+ADO,Anteotech Ltd
+ADR,Adherium Limited
+ADS,Adslot Ltd.
+ADX,Adx Energy Ltd
+ADY,Admiralty Resources Nl.
+AEE,Aura Energy Limited
+AEF,Australian Ethical Investment Limited
+AEG,Aland Equity Group Limited
+AEI,Aeris Environmental Ltd
+AEL,Amplitude Energy Limited
+AEM,Advanced Engineered Materials Ltd
+AER,Aeeris Ltd
+AEU,Atomic Eagle Ltd
+AEV,Avenira Limited
+AFA,Asf Group Limited
+AFG,Australian Finance Group Ltd
+AFI,Australian Foundation Investment Company Limited
+AFL,Af Legal Group Ltd
+AFP,Aft Pharmaceuticals Limited
+AGC,Australian Gold And Copper Ltd
+AGD,Austral Gold Limited
+AGE,Alligator Energy Limited
+AGI,Ainsworth Game Technology Limited
+AGL,Agl Energy Limited.
+AGN,Argenica Therapeutics Limited
+AGR,Aguia Resources Limited
+AGT,Arbitr Group Limited
+AGY,Argosy Minerals Limited
+AHC,Austco Healthcare Limited
+AHE,Adheris Health Limited
+AHF,Australian Dairy Nutritionals Limited
+AHK,Ark Mines Limited
+AHL,Adrad Holdings Limited
+AHN,Athena Resources Limited
+AI1,Adisyn Ltd
+AIA,Auckland International Airport Limited
+AIH,Advanced Innergy Holdings Limited
+AIM,Ai-Media Technologies Limited
+AIQ,Alternative Investment Trust
+AIS,Aeris Resources Limited
+AIV,Activex Limited
+AIX,Ai Private Opportunities Trust
+AIZ,Air New Zealand Limited
+AJL,Aj Lucas Group Limited
+AJX,Alexium International Group Limited
+AKA,Aureka Limited
+AKG,Academies Australasia Group Limited
+AKM,Aspire Mining Limited
+AKN,Auking Mining Limited
+AKO,Akora Resources Limited
+AL3,Aml3D Limited
+ALA,Arovella Therapeutics Limited
+ALB,Albion Resources Limited
+ALC,Alcidion Group Limited
+ALD,Ampol Limited
+ALI,Argo Global Listed Infrastructure Limited
+ALK,Alkane Resources Limited
+ALL,Aristocrat Leisure Limited
+ALM,Alma Metals Limited
+ALQ,Als Limited
+ALR,Altair Minerals Limited
+ALU,Alurion Resources Limited
+ALV,Alvo Minerals Limited
 ALX,Atlas Arteria
+ALY,Alchemy Resources Limited
+AM3,Amara Minerals Limited
+AM5,Antares Metals Limited
+AM7,Arcadia Minerals Limited
+AMA,Ama Group Limited
+AMC,Amcor plc
+AMD,Arrow Minerals Ltd
+AMH,Amcil Limited
+AMI,Aurelia Metals Limited
+AMK,Almasar Minerals Limited
+AMN,Agrimin Limited
+AMO,Ambertech Limited
+AMP,Amp Limited
+AMS,Atomos Limited
+AMU,American Uranium Ltd
+AMX,Aerometrex Limited
+AN1,Anagenics Limited
+ANG,Austin Engineering Limited
+ANN,Ansell Limited
+ANO,Advance Zinctek Limited
+ANR,Anatara Lifesciences Ltd
+ANT,Antimony Resources Limited
+ANX,Anax Metals Limited
+ANZ,ANZ Group Holdings Limited
+AOA,Ausmon Resources Limited
+AOK,Australian Oil Company Limited.
+AON,Apollo Minerals Limited
+AOV,Amotiv Limited
+APA,APA Group
+APC,Apc Minerals Limited
+APE,Eagers Automotive Limited
+APL,Associate Global Partners Limited
+APW,Aims Property Securities Fund
+APX,Appen Limited
+APZ,Aspen Group
+AQ1,Aqyr Ltd
+AQC,Australian Pacific Coal Limited
+AQD,Ausquest Limited
+AQN,Aquirian Limited
+AQX,Alice Queen Limited
+AQZ,Alliance Aviation Services Limited
+AR1,Austral Resources Australia Ltd
+AR3,Australian Rare Earths Limited
+AR9,Archtis Limited
+ARA,Ariadne Australia Limited
+ARB,Arb Corporation Limited.
+ARC,Arc Funds Limited
+ARD,Argent Minerals Limited
+ARF,Arena Reit.
+ARG,Argo Investments Limited
+ARI,Arika Resources Limited
+ARL,Ardea Resources Limited
+ARN,Aldoro Resources Limited
+ARO,Altoro Metals Limited
+ARR,American Rare Earths Limited
+ART,Airtasker Limited
+ARU,Arafura Rare Earths Ltd
+ARV,Artemis Resources Limited
+ARX,Aroa Biosurgery Limited
+AS1,Asara Resources Limited
+ASB,Austal Limited
+ASG,Autosports Group Limited.
+ASH,Ashley Services Group Limited
+ASL,Andean Silver Limited
+ASN,Anson Resources Limited
+ASP,Aspermont Limited.
+ASQ,Australian Silica Quartz Group Ltd
+ASV,Asset Vision Co Ltd
+ASX,ASX Limited
+AT1,Atomo Diagnostics Limited
+AT4,American Tungsten & Antimony Ltd
+ATA,Atturra Limited
+ATC,Altech Batteries Ltd
+ATG,Articore Group Limited
+ATH,Alterity Therapeutics Limited
+ATM,Pt Antam (Persero) Tbk
+ATP,Atlas Pearls Ltd
+ATR,Astron Limited
+ATS,Australis Oil & Gas Limited
+ATT,Altitude Minerals Ltd
+ATV,Activeport Group Ltd
+ATX,Amplia Therapeutics Limited
+AU1,The Agency Group Australia Ltd
+AUA,Audeara Limited
+AUB,Aub Group Limited
+AUC,Ausgold Limited
+AUE,Aurum Resources Limited
+AUG,Augustus Minerals Limited
+AUI,Australian United Investment Company Limited
+AUQ,Alara Resources Limited
+AUR,Auris Minerals Limited
+AUV,Auravelle Metals Limited
+AUZ,Australian Mines Limited
+AV1,Adveritas Limited
+AVA,Ava Risk Group Limited
+AVD,Avada Group Limited
+AVE,Avecho Biotechnology Limited
+AVG,Australian Vintage Ltd
+AVH,Avita Medical Inc.
+AVL,Australian Vanadium Limited
+AVM,Advance Metals Limited
+AVR,Anteris Technologies Global Corp.
+AVW,Avira Resources Ltd
+AW1,American West Metals Limited
+AWJ,Auric Mining Limited
+AX1,Accent Group Limited
+AX8,Accelerate Resources Limited
+AXE,Archer Materials Limited
+AXI,Axtec Limited
+AXL,Axel Ree Limited
+AXN,Alliance Nickel Limited
+AXP,Axp Energy Limited
+AXQ,"Aura Consolidated Group, Inc."
+AXR,Axiant Resources Limited
+AYA,Artrya Limited
+AYM,Australia United Mining Limited
+AYT,Austin Metals Limited
+AZ9,Azzuro Resources Plc
+AZI,Altamin Limited
+AZJ,Aurizon Holdings Limited
+AZY,Antipa Minerals Limited
+B4P,Beforepay Group Limited
+BAK,Barkly Rare Earths Limited
+BAP,Bapcor Limited
+BAS,Bass Oil Limited
+BB1,Blinklab Limited
+BBC,Bnk Banking Corporation Limited
+BBL,Brisbane Broncos Limited
+BBN,Baby Bunting Group Limited
+BBT,Betr Entertainment Limited
+BC8,Black Cat Syndicate Limited
+BCA,Black Canyon Limited
+BCC,Beam Communications Holdings Limited
+BCI,Bci Minerals Limited
+BCK,Brockman Mining Limited
+BCM,Brazilian Critical Minerals Limited
+BCN,Beacon Minerals Limited
+BDM,Burgundy Diamond Mines Limited
+BDX,Bcal Diagnostics Limited
+BEL,Bentley Capital Limited
+BEN,Bendigo And Adelaide Bank Limited
+BEO,Beonic Ltd
+BET,Betmakers Technology Group Ltd
+BEZ,Besra Gold Inc.
+BFG,Bell Financial Group Limited
+BFL,Bsp Financial Group Limited
+BGA,Bega Cheese Limited
+BGD,Barton Gold Holdings Limited
+BGE,Bridge Saas Limited
+BGL,Bellevue Gold Limited
+BGP,Briscoe Group Australasia Limited
+BGT,Bio-Gene Technology Ltd
+BH6,Broken Hill Gold Ltd
+BHD,Benjamin Hornigold Limited
+BHL,Black Horse Mining Limited
+BHM,Broken Hill Mines Limited
+BHP,BHP Group Limited
+BIM,Bindi Metals Limited
+BIO,Biome Australia Limited
+BIS,Bisalloy Steel Group Limited
+BIT,Biotron Limited
+BJY,Barrenjoey Group Limited
+BKB,Black Bear Minerals Limited
+BKI,Bki Investment Company Limited
+BKT,Black Rock Mining Limited
+BKY,Berkeley Energia Limited
+BLG,Bluglass Limited
+BLS,Bls Pharmaceuticals Limited
+BLU,Blue Energy Limited.
+BLX,Beacon Lighting Group Limited
+BLZ,Blaze Minerals Limited
+BM1,Ballard Mining Limited
+BM8,Battery Age Minerals Ltd
+BMC,Bmc Minerals Ltd.
+BMH,Baumart Holdings Limited
+BML,Boab Metals Limited
+BMM,Bayan Mining And Minerals Limited
+BMN,Bannerman Energy Ltd
+BMR,Ballymore Resources Limited
+BMT,Beamtree Holdings Limited
+BNL,Blue Star Helium Limited
+BNR,Bulletin Resources Limited
+BNZ,Benz Mining Corp.
+BOA,Boa Resources Ltd
+BOC,Bougainville Copper Limited
+BOE,Boss Energy Ltd
+BOL,Boom Logistics Limited
+BOQ,Bank Of Queensland Limited.
+BOT,Botanix Pharmaceuticals Ltd
+BPG,Black Pearl Group Limited
+BPH,Bph Energy Ltd
+BPM,Bpm Minerals Limited
+BPP,Babylon Pump & Power Limited
+BPT,Beach Energy Limited
+BRE,Brazilian Rare Earths Limited
+BRG,Breville Group Limited
+BRI,Big River Industries Limited
+BRK,Brookside Energy Limited
+BRL,Bathurst Resources Limited.
+BRN,Brainchip Holdings Ltd
+BRU,Buru Energy Limited
+BRY,Barys Resources Limited
+BSA,Bsa Limited
+BSL,BlueScope Steel Limited
+BSN,Basin Energy Limited
+BSR,Bison Resources Limited
+BST,Boresight Ltd
+BSX,Blackstone Minerals Limited
+BTC,Btc Health Ltd
+BTE,Botala Energy Ltd
+BTI,Bailador Technology Investments Limited
+BTL,Beetaloo Energy Australia Limited
+BTM,Breakthrough Minerals Limited
+BTN,Butn Limited
+BTR,Brightstar Resources Limited
+BUB,Bubs Australia Limited
+BUR,Burley Minerals Ltd
+BUS,Bubalus Resources Limited
+BUX,Buxton Resources Limited
+BUY,Bounty Oil & Gas Nl
+BVR,Bellavista Resources Ltd
+BVS,Bravura Solutions Limited.
+BWF,Blackwall Limited
+BWN,Bhagwan Marine Limited
+BWP,Bwp Group
+BXB,Brambles Limited
+C29,C29 Metals Limited
+C79,Chrysos Corporation Limited
+C7A,Clara Resources Australia Ltd
+CAA,Capral Limited
+CAE,Cannindah Resources Limited
+CAF,Centrepoint Alliance Limited
+CAM,Clime Capital Limited
+CAN,Cann Group Limited
+CAQ,Caq Holdings Limited
+CAR,CAR Group Limited
+CAT,Catapult Sports Ltd
+CAV,Carnavale Resources Limited
+CAY,Canyon Resources Limited
+CAZ,Cazaly Resources Limited
+CBA,Commonwealth Bank of Australia
+CBE,Cobre Limited
+CBL,Control Bionics Limited
+CBO,Cobram Estate Olives Limited
+CBY,Canterbury Resources Limited
+CC5,Clever Culture Systems Limited
+CC9,Chariot Resources Ltd
+CCA,Change Financial Limited
+CCE,Carnegie Clean Energy Limited
+CCG,Comms Group Ltd
+CCL,Cuscal Limited
+CCM,Cadoux Limited
+CCO,The Calmer Co International Limited
+CCP,Credit Corp Group Limited
+CCR,Credit Clear Limited
+CCV,Cash Converters International
+CCX,City Chic Collective Limited
+CD1,Cd Private Equity Fund I
+CD2,Cd Private Equity Fund Ii
+CD3,Cd Private Equity Fund Iii
+CDA,Codan Limited
+CDE,Codeifai Limited
+CDM,Cadence Capital Limited
+CDO,Cadence Opportunities Fund Limited.
+CDP,Carindale Property Trust
+CDR,Codrus Minerals Limited
+CEH,Coast Entertainment Holdings Limited
+CEL,Challenger Gold Limited
+CEN,Contact Energy Limited
+CF1,Complii Fintech Solutions Ltd
+CG1,Carbonxt Group Limited
+CGF,Challenger Limited
+CGO,Cpt Global Limited
+CGR,Cgn Resources Limited
+CGS,Cogstate Ltd
+CHC,Charter Hall Group
+CHI,Channel Infrastructure Nz Limited
+CHL,Camplify Holdings Limited
+CHM,Chimeric Therapeutics Limited
+CHN,Chalice Mining Limited
+CHR,Charger Metals Nl
+CHRCB,Charger Metals Nl
+CHW,Chilwa Minerals Ltd
+CIA,Champion Iron Limited
+CIN,Carlton Investments Limited
+CIP,Centuria Industrial Reit
+CIW,Clime Investment Management Ltd
+CKA,Cokal Limited
+CKF,Collins Foods Limited
+CLA,Celsius Resources Limited.
+CLG,Close The Loop Ltd.
+CLV,Clover Corporation Limited
+CLW,Charter Hall Long Wale Reit
+CLX,Cti Logistics Limited
+CMA,Carma Limited
+CMB,Cambium Bio Limited
+CMD,Cassius Mining Limited
+CMG,Critical Minerals Group Limited
+CML,Connected Minerals Limited
+CMM,Capricorn Metals Ltd
+CMO,Cosmo Metals Limited
+CMP,Compumedics Limited
+CMW,Cromwell Property Group
+CMX,Chemx Materials Limited
+CNB,Carnaby Resources Limited
+CND,Condor Energy Limited
+CNI,Centuria Capital Group
+CNJ,Conico Ltd
+CNQ,Clean Teq Water Limited
+CNU,Chorus Limited
+COB,Cobalt Blue Holdings Limited
+COD,Coda Minerals Ltd
+COF,Centuria Office Reit
+COG,Cog Financial Services Limited
+COH,Cochlear Limited
+COI,Comet Ridge Limited
+COL,Coles Group Limited
+COS,Cosol Limited
+COV,Cleo Diagnostics Ltd
+COY,Coppermoly Limited
+CP8,Canadian Phosphate Limited
+CPM,Cooper Metals Limited
+CPN,Caspin Resources Limited
+CPO,Culpeo Minerals Limited
+CPU,Computershare Limited
+CPV,Clearvue Technologies Limited
+CQE,Charter Hall Social Infrastructure Reit
+CQR,Charter Hall Retail Reit
+CQT,Conneqt Health Limited
+CR1,Constellation Resources Limited
+CR3,Core Energy Minerals Ltd
+CRB,Carbine Resources Limited
+CRD,Conrad Asia Energy Ltd.
+CRI,Critica Limited
+CRN,Coronado Global Resources Inc.
+CRR,Critical Resources Limited
+CRS,Caprice Resources Ltd
+CSC,Capstone Copper Corp.
+CSL,CSL Limited
+CST,Castile Resources Ltd
+CSX,Cleanspace Holdings Limited
+CT1,Constellation Technologies Limited
+CTD,Corporate Travel Management Limited
+CTE,Cryosite Limited
+CTM,Centaurus Metals Limited
+CTN,Catalina Resources Ltd
+CTO,Citigold Corporation Limited
+CTP,Central Petroleum Limited
+CTQ,Careteq Limited
+CTS,Ceretas Limited
+CTT,Cettire Limited
+CU6,Clarity Pharmaceuticals Ltd
+CUE,Cue Energy Resources Limited
+CUF,Cufe Ltd
+CUL,Cullen Resources Limited
+CUP,Count Limited
+CUV,Clinuvel Pharmaceuticals Limited
+CVB,Curvebeam Ai Limited
+CVC,Cvc Limited
+CVL,Civmec Limited
+CVN,Carnarvon Energy Limited
+CVR,Cavalier Resources Limited
+CVV,Caravel Minerals Limited
+CWP,Cedar Woods Properties Limited
+CWY,Cleanaway Waste Management Limited
+CXL,Calix Limited
+CXO,Core Lithium Ltd
+CXU,Cauldron Energy Limited
+CXZ,Connexion Mobility Ltd
+CYB,Aucyber Limited
+CYC,Cyclopharm Limited
+CYG,Coventry Group Limited
+CYL,Catalyst Metals Limited
+CYM,Cyprium Metals Limited
+CYP,Cynata Therapeutics Limited
+CYQ,Cycliq Group Ltd
+CYV,Ceryvyn Therapeutics Limited
+CZN,Corazon Mining Limited
+CZR,Czr Resources Ltd
+D3E,D3 Energy Limited
+DAF,Discovery Alaska Limited
+DAI,Decidr Ai Industries Ltd
+DAL,Dalaroo Metals Ltd
+DBF,Duxton Farms Ltd
+DBI,Dalrymple Bay Infrastructure Limited
+DBO,Diablo Resources Limited
+DCC,Digitalx Limited
+DDR,Dicker Data Limited
+DDT,Datadot Technology Limited
+DEL,Delorean Corporation Limited
+DEM,De.Mem Limited
+DES,Desoto Resources Limited
+DEV,Devex Resources Limited
+DGH,Desane Group Holdings Limited
+DGL,Dgl Group Limited
+DGR,Dgr Global Limited
+DGT,Digico Infrastructure Reit
+DJW,Djerriwarrh Investments Limited
+DKM,Duketon Mining Limited
+DLI,Delta Lithium Limited
+DLY,Daly Resources Limited
+DM1,Desert Metals Limited
+DME,Dome Gold Mines Limited
+DMP,Domino'S Pizza Enterprises Limited
+DN1,Dominion Income Trust 1
+DNL,Dyno Nobel Limited.
+DOC,Doctor Care Anywhere Group Plc
+DOW,Downer Edi Limited
+DPM,Dpm Metals Inc.
+DRE,Dreadnought Resources Ltd
+DRO,Droneshield Limited
+DRR,Deterra Royalties Limited
+DRX,Diatreme Resources Limited
+DSK,Dusk Group Limited
+DSM,Desert Minerals Ltd
+DTL,Data#3 Limited
+DTM,Dart Mining Nl
+DTR,Dateline Resources Limited
+DTZ,Dotz Nano Limited
+DUB,Dubber Corporation Limited
+DUG,Dug Technology Ltd
+DUN,Dundas Minerals Limited
+DUR,Duratec Limited
+DVL,Dorsavi Ltd
+DVP,Develop Global Limited
+DWG,Dataworks Group Limited
+DXB,Dimerix Limited
+DXC,Dexus Convenience Retail Reit
+DXI,Dexus Industria Reit.
+DXN,Dxn Limited
+DXS,Dexus
+DYL,Deep Yellow Limited
+DYM,Dynamic Metals Limited
+E25,Element 25 Limited
+E79,E79 Gold Mines Limited
+EAU,Eau Lithium Ltd
+EAX,Energy Action Limited
+EBO,Ebos Group Limited
+EBR,Ebr Systems Inc.
+ECH,Echelon Resources Limited
+ECP,Ecp Emerging Growth Limited
+ECS,Ecs Botanics Holdings Ltd
+ECT,Environmental Clean Technologies Limited.
+EDE,Eden Innovations Ltd
+EDO,El Dorado Goldfields Limited
+EDU,Edu Holdings Limited
+EDV,Endeavour Group Limited
+EE1,Earths Energy Limited
+EF2,Energy Fuels Inc.
+EFE,Eastern Resources Limited
+EFR,Everflow Resources Ltd
+EG1,Evergold Minerals Limited
+EGA,Eastern Gas Corporation Limited
+EGG,Enero Group Limited
+EGH,Eureka Group Holdings Limited
+EGL,Environmental Group Limited (The)
+EGR,Ecograf Limited
+EGY,Energy Technologies Limited
+EHL,Emeco Holdings Limited
+EIQ,Echoiq Limited
+EL8,Elevate Uranium Ltd
+ELD,Elders Limited
+ELK,Elk Range Mining Limited
+ELS,Elsight Limited
+ELT,Elementos Limited
+ELV,Elevra Lithium Limited
+EM2,Eagle Mountain Mining Limited
+EM3,Emc Gold Corporation
+EMA,Eminence Minerals Limited
+EMB,Embelton Limited
+EMC,Everest Metals Corporation Ltd
+EMD,Emyria Limited
+EME,Energy Metals Ltd
+EMH,European Metals Holdings Limited
+EML,Eml Payments Limited
+EMN,Euro Manganese Inc
+EMP,Emperor Energy Limited
+EMR,Emerald Resources Nl
+EMT,Emetals Limited
+EMU,Emu Nl
+EMUCA,Emu Nl
+EMV,Emvision Medical Devices Ltd
+ENL,Enlitic Inc.
+ENP,Entropy Neurodynamics Limited
+ENR,Encounter Resources Limited
+ENT,Enterprise Metals Limited
+ENV,Enova Mining Limited
+EOL,Energy One Limited
+EOS,Electro Optic Systems Holdings Limited
+EPI,Epiminder Limited
+EPM,Eclipse Metals Limited.
+EPN,Epsilon Healthcare Limited
+EPX,Epx Limited
+EPY,Earlypay Ltd
+EQR,Eq Resources Limited
+EQT,Eqt Holdings Limited
+EQU,Equus Energy Limited
+EQX,Equatorial Resources Limited
+ERA,Energy Resources Of Australia Limited
+ERD,Eroad Limited
+ERE,European Resources Limited
+ERG,Eneco Refresh Ltd
+ERL,Empire Resources Limited
+ESK,Etherstack Plc
+ESR,Estrella Resources Limited
+ETM,Energy Transition Minerals Ltd
+EUZ,Europa Metals Ltd
+EV1,Evolution Energy Minerals Limited
+EV8,Everlast Minerals Ltd.
+EVE,Eve Health Group Limited.
+EVG,Evion Group Nl
+EVN,Evolution Mining Limited
+EVNN,Evolution Mining Limited
+EVO,Embark Early Education Limited
+EVT,Evt Limited
+EVZ,Evz Limited
+EWC,Energy World Corporation Ltd
+EXL,Elixinol Wellness Limited
+EXP,Experience Co Limited
+EXR,Elixir Energy Limited
+EXT,Excite Technology Services Ltd
+EYE,Nova Eye Medical Limited
+EZL,Euroz Hartleys Group Limited
+EZZ,Ezz Life Science Holdings Limited
+FAL,Falcon Metals Ltd
+FAR,Far Limited
+FAU,First Au Limited
+FBR,Fbr Ltd
+FBU,Fletcher Building Limited
+FCG,Freedom Care Group Holdings Limited
+FCL,Fineos Corporation Holdings Plc
+FCT,Firstwave Cloud Technology Limited
+FDC,Fdc Consolidated Holdings Limited
+FDR,Finder Energy Holdings Limited
+FDV,Frontier Digital Ventures Limited
+FEG,Far East Gold Ltd
+FEL,Forte Energy Limited
+FEX,Fenix Resources Ltd
+FFG,Fatfish Group Limited
+FFI,Ffi Holdings Limited
+FFM,Firefly Metals Ltd
+FG1,Flynn Gold Limited
+FGG,Future Generation Global Limited
+FGH,Foresta Group Holdings Limited
+FGR,First Graphene Limited
+FGX,Future Generation Australia Limited
+FHE,Frontier Energy Limited
+FHS,Freehill Mining Limited.
+FID,Fiducian Group Limited
+FIN,Fin Resources Limited
+FL1,First Lithium Limited
+FLC,Fluence Corporation Limited
+FLG,Flagship Minerals Limited
+FLN,Freelancer Limited
+FLT,Flight Centre Travel Group Limited
+FLX,Felix Group Holdings Ltd
+FME,Future Metals Nl
+FMG,Fortescue Limited
+FML,Focus Minerals Ltd
+FMN,Famien Resources Limited
+FMR,Fmr Resources Limited
+FND,Findi Limited
+FNR,Far Northern Resources Limited
+FNX,Finexia Financial Group Limited
+FOS,Fos Capital Ltd
+FPC,Fat Prophets Global Contrarian Fund Ltd
+FPH,Fisher & Paykel Healthcare Corporation Limited
+FPR,Fleetpartners Group Limited
+FRB,Firebird Metals Limited
+FRE,Firebrick Pharma Limited
+FRI,Finbar Group Limited
+FRM,Farm Pride Foods Limited
+FRS,Forrestania Resources Limited
+FRW,Freightways Group Limited
+FRX,Flexiroam Limited
+FSA,Fsa Group Limited
+FSI,Flagship Investments Limited
+FTI,Fortifai Ltd
+FUL,Fulcrum Lithium Ltd
+FUN,Fortuna Metals Ltd
+FWD,Fleetwood Limited
+FXG,Felix Gold Limited
+FZR,Fitzroy River Corporation Ltd
+G11,G11 Resources Limited
+G1C,Group One Capital Limited
+G50,G50 Corp Limited
+G6M,Group 6 Metals Limited
+G88,Golden Mile Resources Ltd
+GA8,Goldarc Resources Limited
+GAL,Galileo Mining Ltd
+GAP,Gale Pacific Limited
+GAS,State Gas Limited
+GBE,Globe Metals & Mining Limited
+GBL,Great Bear Exploration Ltd
+GBM,Gbm Resources Limited.
+GBR,Great Boulder Resources Limited
+GC1,Glennon Small Companies Limited
+GCI,Gryphon Capital Income Trust
+GCM,Gcm Corporation Limited
+GCR,Golden Cross Resources Ltd
+GDF,Garda Property Group
+GDG,Generation Development Group Limited
+GDI,Gdi Property Group
+GDM,Great Divide Mining Ltd
+GDR,Golden Dragon Mining Ltd
+GED,Golden Deeps Limited.
+GEM,G8 Education Limited
+GEN,Genmin Limited
+GES,Genesis Resources Limited
+GFL,Global Masters Fund Limited
+GG1,Green & Gold Minerals Limited
+GG8,Gorilla Gold Mines Ltd
+GGE,Grand Gulf Energy Limited
+GGM,Global Gold Mining Limited
+GGP,Greatland Resources Limited
+GGR,Golden Globe Resources Ltd.
+GHM,Golden Horse Minerals Limited
+GHY,Gold Hydrogen Limited
+GIB,Gib Mining Limited
+GL1,Global Lithium Resources Limited
+GLB,Globe International Limited
+GLC,Glencore Plc
+GLE,Glg Corp Ltd
+GLF,Gemlife Communities Group
+GLH,Global Health Limited
+GLN,Galan Lithium Limited
+GLS,L1 Global Long Short Fund Limited
+GMD,Genesis Minerals Limited
+GMG,Goodman Group
+GML,Gateway Mining Limited
+GMN,Gold Mountain Limited
+GNC,Graincorp Limited
+GNE,Genesis Energy Limited
+GNG,Gr Engineering Services Limited
+GNM,Great Northern Minerals Limited
+GNP,Genusplus Group Ltd
+GOW,Gowing Bros Limited
+GOZ,Growthpoint Properties Australia
+GPR,Geopacific Resources Ltd
+GPT,GPT Group
+GQG,Gqg Partners Inc.
+GR8,Great Dirt Resources Ltd
+GRE,Greentech Metals Limited
+GRR,Grange Resources Limited.
+GRS,Gwardar Resources Limited
+GRV,Greenvale Energy Ltd
+GRX,Greenx Metals Limited
+GSE,Gulf Stream Energy Ltd
+GSM,Golden State Mining Limited
+GSN,Great Southern Mining Limited
+GSS,Genetic Signatures Limited
+GT1,Green Technology Metals Limited
+GT3,Green360 Technologies Limited
+GTE,Great Western Exploration Limited.
+GTI,Gratifii Limited
+GTK,Gentrack Group Limited
+GTN,Gtn Limited
+GUL,Gullewa Limited
+GUM,Gumtree Australia Markets Limited
+GVF,Staude Capital Global Value Fund Limited
+GW1,Greenwing Resources Ltd
+GWA,Gwa Group Limited.
+GWR,Gwr Group Limited
+GYG,Guzman Y Gomez Limited
+H2G,H2G Limited
+H3E,H3 Energy Limited
+HAL,Halo Technologies Holdings Ltd
+HAR,Haranga Resources Limited.
+HAS,Hastings Technology Metals Ltd
+HAV,Havilah Resources Limited
+HAW,Hawthorn Resources Limited
+HCF,H&G High Conviction Limited
+HCH,Hot Chili Limited
+HCL,Highcom Limited
+HCT,Holista Colltech Limited
+HCW,Healthco Healthcare And Wellness Reit
+HDN,Homeco Daily Needs Reit
+HE8,Helios Energy Ltd
+HFR,Highfield Resources Limited
+HFY,Hubify Limited
+HGH,Heartland Group Holdings Limited
+HIO,Hawsons Iron Ltd
+HIQ,Hitiq Limited
+HIT,Hitech Group Australia Limited
+HLI,Helia Group Limited
+HLM,Highland Metals Limited
+HLO,Helloworld Travel Limited
+HLS,Healius Limited
+HLX,Helix Resources Limited
+HM1,Hearts And Minds Investments Limited
+HMC,Hmc Capital Limited
+HMD,Heramed Limited
+HMG,Hamelin Gold Limited
+HMX,Hammer Metals Limited
+HMY,Harmoney Corp Limited
+HOR,Horseshoe Metals Limited
+HPC,The Hydration Pharmaceuticals Company Limited
+HPG,Hipages Group Holdings Ltd
+HPR,High Peak Royalties Limited
+HRE,Heavy Rare Earths Limited
+HRN,Horizon Gold Limited
+HSN,Hansen Technologies Limited
+HT8,Harris Technology Group Limited
+HTM,High-Tech Metals Ltd
+HUB,Hub24 Limited
+HUM,Humm Group Limited
+HVN,Harvey Norman Holdings Limited
+HVY,Heavy Minerals Limited
+HWK,Hawk Resources Limited.
+HYD,Hydrix Limited
+HYTDC,Hyterra Ltd
+HZN,Horizon Oil Limited
+HZR,Hazer Group Limited
+I88,Infini Resources Limited
+IAG,Insurance Australia Group Limited
+IAM,Income Asset Management Group Limited.
+IBC,Ironbark Balanced Income Limited
+IBR,Iron Bear Resources Ltd
+IBX,Imagion Biosystems Limited
+ICE,Icetana Limited
+ICL,Iceni Gold Limited
+ICR,Intelicare Holdings Limited
+ICU,Investor Centre Limited
+ID1,Identifai Genetics Limited
+ID8,Identitii Limited
+IDA,Indiana Resources Limited
+IDT,Idt Australia Limited
+IDX,Integral Diagnostics Limited
+IEL,Idp Education Limited
+IEQ,International Equities Corporation Limited.
+IFG,Infocus Group Holdings Limited
+IFN,Infragreen Group Limited
+IFT,Infratil Limited.
+IG6,International Graphite Limited
+IGL,Ive Group Limited
+IGN,Ignite Limited
+IGO,Igo Limited
+IIQ,Inoviq Ltd
+IKE,Ikegps Group Limited
+ILA,Island Pharmaceuticals Limited
+ILT,Iltani Resources Limited.
+ILU,Iluka Resources Limited
+IMA,Image Resources Nl
+IMB,Intelligent Monitoring Group Limited
+IMC,Immuron Limited
+IMD,Imdex Limited
+IME,Imexhs Limited
+IMI,Infinity Mining Limited
+IMM,Immutep Limited
+IMR,Imricor Medical Systems Inc.
+IMU,Imugene Limited
+INA,Ingenia Communities Group
+IND,Industrial Minerals Ltd
+INF,Infinity Metals Limited
+ING,Inghams Group Limited
+INN,Innovaero Technologies Limited
+INR,Ioneer Ltd
+INV,Investsmart Group Limited
+IOD,Iodm Limited
+ION,Iondrive Limited
+IOV,Ion Video Ltd
+IPC,Imperial Pacific Limited
+IPD,Impedimed Limited
+IPG,Ipd Group Ltd
+IPH,Iph Limited
+IPT,Impact Minerals Limited
+IPX,Iperionx Limited
+IRD,Iron Road Limited
+IRE,Iress Limited
+IRI,Integrated Research Limited
+IS3,I Synergy Group Limited
+ITM,Itech Minerals Ltd
+ITS,Infotrust Ltd
+IVG,Invert Graphite Limited
+IVR,Investigator Silver Limited
+IVX,Invion Limited
+IVZ,Invictus Energy Ltd
+IXC,Invex Therapeutics Ltd
+IXR,Ionic Rare Earths Limited
+JAL,Jameson Resources Limited
+JAN,Janison Education Group Limited
+JAT,Jatcorp Limited
+JAV,Javelin Minerals Limited
+JBH,Jb Hi-Fi Limited
+JCS,Jcurve Solutions Ltd
+JDO,Judo Capital Holdings Limited
+JGH,Jade Gas Holdings Limited
+JHX,James Hardie Industries plc
+JIN,Jumbo Interactive Limited
+JLL,Jindalee Lithium Limited
+JMS,Jupiter Mines Limited.
+JNO,Juno Minerals Limited
+JNS,Janus Electric Holdings Limited
+JPR,Jupiter Energy Limited
+JRL,Jacaranda Natural Resources Limited
+JYC,Joyce Corporation Ltd
+KAL,Kalgoorlie Gold Mining Limited
+KAM,K2 Asset Management Holdings Ltd
+KAN,Kantra Copper Limited
+KAO,Kaoko Metals Limited
+KAR,Karoon Energy Ltd
+KAT,Katana Capital Limited
+KAU,Kaiser Reef Limited
+KCC,Kincora Copper Limited
+KCN,Kingsgate Consolidated Limited.
+KEY,Key Petroleum Limited
+KFM,Kingfisher Mining Ltd
+KGL,Kgl Resources Limited
+KGN,Kogan.Com Ltd
+KIT,Kapstream Investment Trust
+KKC,Kkr Credit Income Fund
+KKO,Kinetiko Energy Ltd
+KLI,Killi Resources Limited
+KLR,Kaili Resources Limited
+KLS,Kelsian Group Limited
+KLV,Klevo Group Limited
+KM1,Kali Metals Limited
+KMD,Kmd Brands Limited
+KME,Kip Mcgrath Education Centres Limited
+KNB,Koonenberry Gold Limited
+KNG,Kingsland Minerals Ltd
+KNI,Kuniko Limited
+KNO,Knosys Limited
+KOA,The Koala Company Limited
+KOB,Koba Resources Limited
+KOV,Korvest Ltd
+KP2,Kore Potash Plc
+KPG,Kelly Partners Group Holdings Limited
+KPO,Kalina Power Limited
+KRM,Kingsrose Mining Limited
+KRR,King River Resources Limited
+KSC,K & S Corporation Limited
+KSL,Kina Securities Limited
+KSN,Kingston Resources Limited
+KTA,Krakatoa Resources Limited
+KTK,Ktek Aerosystems Ltd
+KYN,Kyron Capital Group
+KYP,Kinatico Ltd
+KZR,Kalamazoo Resources Limited
+L1G,L1 Group Limited
+L1M,Lightning Minerals Ltd
+LAC,Lac Gold Limited
+LAM,Laramide Resources Ltd
+LAT,Latitude 66 Limited
+LAU,Lindsay Australia Limited
+LBL,Laserbond Limited
+LCE,London City Equities Limited
+LCL,Lcl Resources Limited
+LCY,Legacy Iron Ore Limited
+LDR,Lode Resources Ltd
+LDX,Lumos Diagnostics Holdings Limited
+LED,Ldr Capital Property Fund
+LEG,Legend Mining Limited
+LEL,Le Minerals Limited
+LEX,Lefroy Exploration Limited
+LF1,La Trobe Private Credit Fund
+LFG,Liberty Financial Group
+LFS,Latitude Group Holdings Limited
+LFT,Li-Ft Power Ltd.
+LGF,L1 Gold Fund Limited
+LGI,Lgi Limited
+LGM,Legacy Minerals Holdings Limited
+LGP,Little Green Pharma Ltd
+LIC,Lifestyle Communities Limited
+LIN,Lindian Resources Limited
+LIO,Lion Energy Limited
+LIS,Li-S Energy Limited
+LIT,Livium Ltd
+LKE,Lake Resources N.L.
+LKO,Lakes Blue Energy Nl
+LKY,Locksley Resources Limited
+LLC,Lendlease Group
+LM1,Leeuwin Metals Ltd
+LM8,Lunnon Metals Limited
+LMG,Latrobe Magnesium Limited
+LML,Lincoln Minerals Limited
+LMS,Litchfield Minerals Limited
+LNQ,Linq Minerals Limited
+LNW,Light & Wonder Inc.
+LOT,Lotus Resources Limited
+LOV,Lovisa Holdings Limited
+LPE,Locality Planning Energy Holdings Limited
+LPM,Lithium Plus Minerals Ltd.
+LRD,Lord Resources Limited
+LRK,Lark Distilling Co. Ltd
+LRM,Lion Rock Minerals Ltd
+LRT,Lowell Resources Fund
+LRV,Larvotto Resources Limited
+LSA,Lachlan Star Limited
+LSF,L1 Long Short Fund Limited
+LSR,Lodestar Minerals Limited
+LSX,Lion Selection Group Limited.
+LTP,Ltr Pharma Limited
+LTR,Liontown Limited
+LU7,Lithium Universe Limited
+LUX,Lux Copper Corp. Ltd
+LVE,Love Group Global Ltd
+LYC,Lynas Rare Earths Limited
+LYL,Lycopodium Limited
+M24,Mamba Exploration Limited
+M2M,Mt Malcolm Mines Nl
+M2R,Miramar Resources Limited
+M3M,M3 Mining Limited
+M4M,Macro Metals Limited
+M79,Mammoth Minerals Limited
+M7T,Mach7 Technologies Limited
+M96,Maverick Minerals Australia Ltd
+MA1,Ma Credit Income Trust
+MAD,Mader Group Limited
+MAF,Ma Financial Group Limited
+MAG,Magmatic Resources Limited
+MAH,Macmahon Holdings Limited
+MAM,Microequities Asset Management Group Limited
+MAN,Mandrake Resources Limited
+MAP,Microba Life Sciences Limited
+MAQ,Macquarie Technology Group Limited
+MAT,Matsa Resources Limited
+MAY,Melbana Energy Limited
+MBG,Mb Gold Limited
+MBH,Maggie Beer Holdings Ltd
+MBK,Metal Bank Limited
+MC2,Marimaca Copper Corp.
+MCA,Murray Cod Australia Limited
+MCM,Mc Mining Limited
+MCO,Myeco Group Ltd
+MCP,Mcpherson'S Limited
+MCY,Mercury Nz Limited
+MDI,Middle Island Resources Limited
+MDX,Mindax Limited
+MEC,Morphic Ethical Equities Fund Limited
+MEG,Megado Minerals Ltd
+MEI,Meteoric Resources Limited
+MEK,Meeka Metals Limited
+MEL,Metgasco Ltd
+MEM,Memphasys Limited.
+MEU,Marmota Limited
+MEX,Minerals Exploration Limited
+MEZ,Meridian Energy Limited
+MFD,Mayfield Childcare Limited
+MFF,Mff Capital Investments Limited
+MGA,Metalsgrove Mining Ltd
+MGH,Maas Group Holdings Limited
+MGL,Magontec Limited
+MGR,Mirvac Group
+MGT,Magnetite Mines Limited.
+MGU,Magnum Mining And Exploration Limited
+MGX,Mgx Resources Limited
+MHC,Manhattan Gold Corporation Limited
+MHJ,Michael Hill International Limited
+MHK,Metal Hawk Limited.
+MHM,Mount Hope Mining Limited
+MI6,Minerals 260 Limited
+MIN,Mineral Resources Limited
+MIO,Macarthur Minerals Limited
+MIR,Mirrabooka Investments Limited
+MKR,Manuka Resources Ltd.
+ML8,Moonlight Resources Ltd
+MLG,Mlg Oz Limited
+MLS,Metals Australia Ltd
+MLX,Metals X Limited
+MM1,Midas Minerals Ltd
+MM8,Medallion Metals Limited.
+MMA,Maronan Metals Limited
+MME,Moneyme Limited
+MMI,Metro Mining Limited
+MML,Mclaren Minerals Limited
+MMR,Mec Resources Limited
+MMS,Mcmillan Shakespeare Limited
+MNB,Minbos Resources Limited
+MNC,Merino & Co. Limited
+MND,Monadelphous Group Limited
+MNE,Macallum New Energy Limited
+MNV,Monvia Limited
+MOH,Moho Resources Limited
+MOM,Moab Minerals Limited
+MOT,Metrics Income Opportunities Trust
+MOV,Move Logistics Group Limited
+MP1,Megaport Limited
+MPK,Many Peaks Minerals Ltd
+MPL,Medibank Private Limited
+MPP,Metro Performance Glass Limited
+MPR,Mpr Australia Limited
+MPW,Metal Powder Works Limited
+MPX,Mustera Property Group Limited
+MQG,Macquarie Group Limited
+MQR,Marquee Resources Limited
+MRD,Mount Ridley Mines Limited
+MRE,Metrics Real Estate Multi-Strategy Fund
+MRQ,Mrg Metals Limited
+MRT,Maritana Minerals Limited
+MRZ,Mont Royal Resources Limited
+MSB,Mesoblast Limited
+MSG,Mcs Services Limited
+MSI,Multistack International Limited
+MSV,Mitchell Services Limited
+MSX,Miro Sciences Ltd
+MTH,Mithril Silver And Gold Limited
+MTL,Mantle Minerals Limited
+MTM,Metallium Limited
+MTO,Motorcycle Holdings Limited
+MTS,Metcash Limited
+MVF,Monash Ivf Group Limited
+MVL,Marvel Gold Limited
+MVP,Medical Developments International Limited
+MX1,Micro-X Limited
+MXI,Maxiparts Limited
+MXO,Motio Ltd
+MXT,Metrics Master Income Trust
+MYE,Mastermyne Group Limited
+MYG,Mayfield Group Holdings Limited
+MYR,Myer Holdings Limited
+MYS,Mystate Limited
+MYX,Mayne Pharma Group Limited
+N1H,N1 Holdings Limited
+NAB,National Australia Bank Limited
+NAC,Naos Ex-50 Opportunities Company Limited
+NAE,New Age Exploration Limited
+NAG,Nagambie Resources Limited
+NAN,Nanosonics Limited
+NC1,Nico Resources Limited
+NC6,Nanollose Limited
+NCC,Naos Emerging Opportunities Company Limited
+NCK,Nick Scali Limited
+NDO,Nido Education Limited
+NEC,Nine Entertainment Co. Holdings Limited
+NEM,Newmont Corporation
+NES,Nelson Resources Limited.
+NEU,Neuren Pharmaceuticals Limited
+NFL,Norfolk Metals Limited
+NFM,New Frontier Minerals Limited
+NGE,Nge Capital Limited
+NGI,Navigator Global Investments Limited
+NGS,Nutritional Growth Solutions Ltd
+NGX,Ngx Limited
+NGY,Nuenergy Gas Limited
+NH3,Nh3 Clean Energy Limited
+NHC,New Hope Corporation Limited
+NHE,Noble Helium Limited
+NHF,Nib Holdings Limited
+NHU,Neu Horizon Uranium Limited
+NIC,Nickel Industries Limited
+NIM,Nimy Resources Limited
+NMD,Normandy Minerals Ltd
+NME,Nex Metals Exploration Limited
+NMG,New Murchison Gold Limited
+NMR,Native Mineral Resources Holdings Limited
+NMT,Neometals Ltd
+NNL,Nordic Resources Ltd
+NOL,Nobleoak Life Limited
+NOR,Norwood Systems Limited
+NOU,Noumi Limited
+NOV,Novatti Group Limited
+NOX,Noxopharm Limited
+NPM,Newpeak Metals Limited
+NRL,Northstone Resources Limited
+NRX,Noronex Limited
+NRZ,Neurizer Ltd
+NS1,Nodestream Ltd
+NSC,Naos Small Cap Opportunities Company Limited
+NSM,North Stawell Minerals Ltd
+NST,Northern Star Resources Limited
+NTD,Ntaw Holdings Limited
+NTI,Neurotech International Limited
+NTM,Nt Minerals Limited
+NTU,Northern Minerals Limited
+NUC,Nuchev Limited
+NUF,Nufarm Limited
+NUZ,Neurizon Therapeutics Limited
+NVA,Nova Minerals Corp
+NVO,Novo Resources Corp.
+NVQ,Noviqtech Limited
+NVU,Nanoveu Limited
+NVX,Novonix Limited
+NWH,Nrw Holdings Limited
+NWL,Netwealth Group Limited
+NWM,Norwest Minerals Limited
+NWS,News Corporation..
+NWSLV,News Corporation..
+NX1,Nexalis Therapeutics Ltd
+NXD,Nexted Group Limited
+NXG,Nexgen Energy (Canada) Ltd
+NXL,Nuix Limited
+NXM,Nexus Minerals Limited
+NXN,Nexsen Limited
+NXT,Nextdc Limited
+NYM,Narryer Metals Limited
+NYR,Nyrada Inc.
+NZK,New Zealand King Salmon Investments Limited
+NZM,Nzme Limited
+OAK,Oakridge International Limited
+OB1,Orbminco Limited
+OBL,Omni Bridgeway Limited
+OBM,Ora Banda Mining Ltd
+OBT,Orbit Resources Limited
+OCA,Oceania Healthcare Limited
+OCC,Orthocell Limited
+OCL,Objective Corporation Limited
+OCN,Oceana Metals Limited
+OCT,Octava Minerals Limited
+OD6,Od6 Metals Limited
+ODA,Orcoda Limited
+ODE,Odessa Minerals Limited
+ODY,Odyssey Gold Ltd
+OEC,Orbital Corporation Limited
+OEL,Otto Energy Limited
+OEQ,Orion Equities Limited
+OFX,Ofx Group Limited
+OIL,Optiscan Imaging Limited
+OKJ,Oakajee Corporation Limited
+OLI,Oliver'S Real Food Limited
+OLL,Openlearning Limited
+OLY,Olympio Metals Limited
+OM1,Omnia Metals Group Ltd
+OMA,Omega Oil & Gas Limited
+OMG,Omg Group Limited
+OMH,Om Holdings Limited
+OML,Ooh!Media Limited
+OMX,Orange Minerals Nl
+ONE,Oneview Healthcare Plc
+OPH,Ophir High Conviction Fund
+OR3,Ore Resources Limited
+ORA,Orora Limited
+ORD,Ordell Minerals Limited
+ORE,Orezone Gold Corporation
+ORG,Origin Energy Limited
+ORI,Orica Limited
+ORN,Orion Minerals Ltd
+ORP,Orpheus Uranium Limited
+OSL,Oncosil Medical Ltd
+OSM,Osmond Resources Limited
+OSS,Ocean Sciences Ltd
+OSX,Osteopore Limited
+OVT,Ovanti Limited
+OWL,Overwatch Technologies Limited
+OZM,Ozaurum Resources Limited
+OZZ,Ozz Resources Limited
+P1E,Pure One Corporation Limited
+PAB,Patrys Limited
+PAC,Pacific Current Group Limited
+PAF,Pan African Resources Plc
+PAR,Paradigm Biopharmaceuticals Limited..
+PAT,Patriot Resources Limited
+PBH,Pointsbet Holdings Limited
+PBL,Parabellum Resources Limited
+PC2,Pc Gold Ltd
+PCG,Pengana Capital Group Limited
+PCI,Perpetual Credit Income Trust
+PCK,Painchek Ltd
+PCL,Pancontinental Energy Nl
+PCX,Pengana Global Private Credit Trust
+PDI,Pdi Gold Limited
+PDN,Paladin Energy Ltd
+PE1,Pengana Private Equity Trust
+PEB,Pacific Edge Limited
+PEC,Perpetual Resources Limited
+PEN,Peninsula Energy Limited
+PER,Percheron Therapeutics Limited
+PET,Phoslock Environmental Technologies Limited
+PFE,Pantera Minerals Limited
+PFG,Prime Financial Group Limited
+PFM,Platformo Ltd
+PFP,Propel Funeral Partners Limited
+PFT,Pure Foods Tasmania Limited
+PGC,Paragon Care Limited
+PGD,Peregrine Gold Ltd
+PGF,Pm Capital Global Opportunities Fund Limited
+PGL,Pilbara Gold Limited
+PGM,Platina Resources Limited
+PGY,Pilot Energy Limited
+PHO,Phosco Ltd
+PHX,Pharmx Technologies Limited
+PIA,Pengana International Equities Limited
+PIC,Perpetual Equity Investment Company Limited
+PIL,Peppermint Innovation Limited
+PIM,Pinnacle Minerals Limited
+PIQ,Proteomics International Laboratories Ltd
+PKD,Parkd Ltd
+PKO,Peako Limited
+PKP,Peak Processing Limited
+PKY,Pathkey.Ai Ltd
+PL3,Patagonia Lithium Ltd
+PL8,Plato Income Maximiser Limited.
+PL9,Prairie Lithium Limited
+PLA,Pacific Lime And Cement Limited
+PLC,Plc Resources Limited
+PLG,Pearl Gull Iron Limited
+PLS,PLS Group Limited
+PLT,Plenti Group Limited
+PLY,Playside Studios Limited
+PM1,Palisade Metals Ltd
+PME,Pro Medicus Limited
+PMM,Pioneer Minerals Limited
+PMT,Pmet Resources Inc.
+PMV,Premier Investments Limited
+PNC,Pioneer Credit Limited
+PNI,Pinnacle Investment Management Group Limited
+PNN,Power Minerals Limited
+PNR,Pantoro Gold Limited
+PNT,Panther Metals Ltd
+PNV,Polynovo Limited
+POD,Podium Minerals Limited
+POL,Polymetals Resources Ltd
+POW,Powerhaus Uranium Limited
+PPC,Peet Limited
+PPE,Peoplein Limited
+PPK,Ppk Group Limited
+PPL,Pureprofile Ltd
+PPM,Pepper Money Limited
+PPS,Praemium Limited
+PPT,Perpetual Limited
+PPY,Papyrus Australia Limited
+PR1,Pure Resources Limited
+PR2,Piche Resources Limited
+PRB,Parbo Resources Limited
+PRG,Prl Global Ltd
+PRM,Prominence Energy Limited
+PRN,Perenti Limited
+PRO,Prophecy International Holdings Limited
+PRU,Perseus Mining Limited
+PRX,Prodigy Gold Nl
+PSC,Prospect Resources Limited
+PSL,Paterson Resources Ltd
+PTL,Prestal Holdings Limited
+PTN,Patronus Resources Limited
+PTR,Ptr Minerals Ltd
+PTX,Prescient Therapeutics Limited
+PUR,Pursuit Minerals Ltd
+PV1,Provaris Energy Ltd
+PVE,Po Valley Energy Limited
+PVL,Powerhouse Ventures Limited
+PVT,Pivotal Metals Limited
+PWH,Pwr Holdings Limited
+PWN,Parkway Corporate Limited
+PWR,Peter Warren Automotive Holdings Limited
+PXA,Pexa Group Limited
+PXR,Pacific Resources Limited
+PXX,Polarx Limited
+PYC,Pyc Therapeutics Limited
+QAL,Qualitas Limited
+QAN,Qantas Airways Limited
+QBE,QBE Insurance Group Limited
+QEM,Qem Limited
+QFE,Quickfee Limited
+QGL,Quantum Graphite Limited
+QML,Qmines Limited
+QRI,Qualitas Real Estate Income Fund
+QUE,Queste Communications Limited
+QXR,Qx Resources Limited
+R8R,Regener8 Resources Nl
+RAC,Racura Oncology Ltd
+RAD,Radiopharm Theranostics Limited
+RAG,Ragnar Metals Limited
+RAN,Range International Limited
+RAP,Raptor Metals Ltd
+RAS,Ragusa Minerals Ltd
+RAU,Resouro Strategic Metals Inc.
+RB6,Rubix Resources Limited
+RBR,Rbr Group Limited
+RBX,Resource Base Limited.
+RC1,Redcastle Resources Limited
+RCE,Recce Pharmaceuticals Ltd
+RCL,Readcloud Limited
+RCM,Rapid Critical Metals Limited
+RCR,Rincon Resources Limited
+RCT,Reef Casino Trust
+RDM,Red Metal Limited
+RDN,Raiden Resources Limited
+RDS,Redstone Resources Limited
+RDX,Redox Limited
+RDY,Readytech Holdings Limited
+REA,REA Group Ltd
+REC,Recharge Metals Limited
+REE,Rarex Limited
+REG,Regis Healthcare Limited
+REH,Reece Limited
+REM,Remsense Technologies Limited
+REP,Ram Essential Services Property Fund
+REV,Revolution Private Credit Income Trust
+REZ,Resources & Energy Group Limited
+RF1,Regal Investment Fund
+RFF,Rural Funds Group
+RFG,Retail Food Group Limited
+RFT,Rectifier Technologies Ltd
+RG1,Regal Partners Global Investments Limited
+RG8,Regal Asian Investments Limited
+RGL,Riversgold Limited
+RGN,Region Group
+RGT,Argent Biopharma Limited
+RHC,Ramsay Health Care Limited
+RHI,Red Hill Minerals Limited
+RHT,Resonance Health Limited
+RHY,Rhythm Biosciences Limited
+RIC,Ridley Corporation Limited
+RIE,Riedel Resources Limited
+RIM,Rimfire Pacific Mining Limited
+RIO,Rio Tinto Limited
+RIV,Rivco Australia Ltd
+RKB,Rokeby Resources Limited
+RKN,Reckon Limited
+RKT,Rocketdna Ltd.
+RLC,Reedy Lagoon Corporation Limited
+RLF,Rlf Agtech Ltd
+RLG,Roolife Group Ltd
+RMC,Resimac Group Ltd
+RMD,ResMed Inc.
+RMI,Resource Minerals International Ltd
+RML,Resolution Minerals Ltd
+RMS,Ramelius Resources Limited
+RMX,Red Mountain Mining Limited
+RMY,Rma Global Limited
+RND,Rand Mining Limited
+RNT,Rent.Com.Au Limited
+RNU,Renascor Resources Limited
+RNV,Renerve Limited
+RNX,Renegade Exploration Limited
+ROC,Rocketboots Limited
+ROG,Red Sky Energy Limited.
+RON,Ronin Resources Ltd
+RPL,Regal Partners Limited
+RPM,Rpm Automotive Group Limited
+RR1,Reach Resources Limited
+RRE,Right Resources Limited
+RRL,Regis Resources Limited
+RRR,Revolver Resources Holdings Ltd
+RSG,Resolute Mining Limited
+RTG,Rtg Mining Inc.
+RTH,Ras Technology Holdings Limited
+RTR,Rumble Resources Limited
+RVT,Richmond Vanadium Technology Limited
+RWC,Reliance Worldwide Corporation Limited
+RWD,Reward Minerals Ltd
+RWL,Rubicon Water Limited
+RXL,Rox Resources Limited
+RYD,Ryder Capital Limited
+RYM,Ryman Healthcare Limited
+RZI,Raiz Invest Limited
+S2R,S2 Resources Ltd
+S32,South32 Limited
+S66,Star Combo Pharma Limited
+SAN,Sagalio Energy Limited
+SAU,Sigma Lithium Corporation
+SB2,Salter Brothers Emerging Companies Limited
+SBM,St Barbara Limited
+SBR,Sabre Resources Limited
+SBZ,Schoolblazer Limited
+SCG,Scentre Group
+SCN,Scorpion Minerals Limited
+SCP,Scalare Partners Holdings Limited
+SCX,Scx.Ai Holdings Limited
+SDF,Steadfast Group Limited
+SDR,Siteminder Limited
+SDV,Scidev Ltd
+SEA,Sea Forest Limited
+SEC,Spheria Emerging Companies Limited
+SEG,Sports Entertainment Group Limited
+SEK,SEEK Limited
+SEN,Senetas Corporation Limited
+SEQ,Sequoia Financial Group Ltd
+SER,Strategic Energy Resources Limited
+SET,Solaris Australian Equity Income Plus Limited
+SFC,Schaffer Corporation Limited
+SFG,Seafarms Group Limited
+SFM,Santa Fe Minerals Ltd
+SFR,Sandfire Resources Limited
+SFX,Sheffield Resources Limited
+SGA,Sarytogan Graphite Limited
+SGC,Sinclair Gold Ltd
+SGH,Sgh Limited
+SGI,Stealth Group Holdings Ltd
+SGLLV,Ricegrowers Limited
+SGM,Sims Limited
+SGP,Stockland
+SGQ,St George Mining Limited
+SGR,The Star Entertainment Group Limited
+SHA,Shape Australia Corporation Limited
+SHE,Stonehorse Energy Limited
+SHG,Singular Health Group Ltd
+SHJ,Shine Justice Ltd
+SHL,Sonic Healthcare Limited
+SHM,Shriro Holdings Limited
+SHN,Sunshine Metals Limited
+SHO,Sportshero Limited
+SHV,Select Harvests Limited
+SIG,Sigma Healthcare Limited
+SIO,Simonds Group Limited
+SIQ,Smartgroup Corporation Ltd
+SIS,Simble Solutions Limited
+SIV,Siv Capital Limited
+SIX,Sprintex Limited
+SK1,Skinkandy Limited
+SKC,Skycity Entertainment Group Limited
+SKG,Storage King Group
+SKK,Stakk Limited
+SKM,Skylark Minerals Limited
+SKN,Skin Elements Limited
+SKO,Serko Limited
+SKS,Sks Technologies Group Limited
+SKT,Sky Network Television Limited.
+SKY,Sky Metals Limited
+SLA,Solara Minerals Ltd
+SLB,Stelar Metals Limited
+SLC,Superloop Limited
+SLD,"Saluda Medical, Inc."
+SLM,Solis Minerals Limited
+SLS,Solstice Minerals Limited
+SLX,Silex Systems Limited
+SLZ,Sultan Resources Ltd
+SM1,Synlait Milk Limited
+SMI,Santana Minerals Limited
+SMM,Somerset Minerals Limited
+SMN,Structural Monitoring Systems Plc
+SMR,Stanmore Resources Limited
+SMS,Star Minerals Limited
+SMX,Strata Minerals Limited.
+SNC,Sandon Capital Investments Limited
+SND,Saunders International Limited
+SNG,Siren Gold Limited
+SNL,Supply Network Limited
+SNM,Sentinel Metals Limited
+SNS,Sensen Networks Limited
+SNT,Syntara Limited
+SNX,Sierra Nevada Gold Inc.
+SNZ,Summerset Group Holdings Limited
+SOC,Soco Corporation Ltd
+SOL,Washington H. Soul Pattinson and Company Limited
+SOM,Somnomed Limited
+SOP,Synertec Corporation Limited
+SOR,Strategic Elements Limited
+SP3,Spectur Limited
+SP8,Streamplay Studio Limited
+SPA,Spacetalk Ltd
+SPD,Southern Palladium Limited
+SPG,Spc Global Holdings Ltd
+SPK,Spark New Zealand Limited
+SPL,Starpharma Holdings Limited
+SPN,Sparc Technologies Limited
+SPQ,Superior Resources Limited
+SPX,Spenda Limited
+SPZ,Smart Parking Limited
+SQX,Sqx Resources Limited
+SRG,Srg Global Limited
+SRH,Saferoads Holdings Limited
+SRJ,Srj Technologies Group Plc
+SRK,Strike Resources Limited
+SRL,Sunrise Energy Metals Limited
+SRN,Surefire Resources Nl
+SRR,Sarama Resources Ltd
+SRV,Servcorp Limited
+SRZ,Stellar Resources Limited
+SS1,Sun Silver Limited
+SSG,Shaver Shop Group Limited
+SSH,Ssh Group Ltd
+SSL,Sietel Limited
+SSM,Service Stream Limited
+SST,Steamships Trading Company Limited
+STH,Stepchange Holdings Limited
+STK,Strickland Metals Limited
+STM,Sunstone Metals Ltd
+STN,Saturn Metals Limited
+STO,Santos Limited
+STP,Step One Clothing Limited
+STV,Swift Tv Ltd
+STX,Strike Energy Limited
+SUH,Southern Hemisphere Mining Limited
+SUL,Super Retail Group Limited
+SUN,Suncorp Group Limited
+SVG,Savannah Goldfields Limited
+SVL,Silver Mines Limited
+SVM,Sovereign Metals Limited
+SVR,Solvar Limited
+SVY,Stavely Minerals Limited
+SWP,Swoop Holdings Limited
+SX2,Southern Cross Gold Consolidated Ltd.
+SXE,Southern Cross Electrical Engineering Ltd
+SXL,Southern Cross Media Group Limited
+SYL,Symal Group Limited
+SYR,Syrah Resources Limited
+T3D,333D Limited
+T88,Taiton Resources Limited
+T92,Terra Critical Minerals Limited
+TAH,Tabcorp Holdings Limited
+TAL,Talius Group Limited
+TAM,Tanami Gold Nl
+TAR,Taruga Minerals Limited
+TAS,Tasman Resources Ltd
+TAT,Tartana Minerals Limited
+TBN,Tamboran Resources Corporation
+TBR,Tribune Resources Limited
+TCF,360 Capital Mortgage Reit
+TCG,Turaco Gold Limited
+TCL,Transurban Group
+TCO,Transmetro Corporation Limited
+TD1,Tali Digital Limited
+TDO,3D Energi Limited
+TEA,Tasmea Limited
+TEE,Top End Energy Limited
+TEK,Thorney Technologies Ltd
+TEM,Tempest Minerals Limited
+TER,Terracom Limited
+TET,Tetragon Energy Limited
+TFL,Tasfoods Limited
+TG1,Techgen Metals Ltd
+TG6,Tg Metals Limited
+TGF,Tribeca Global Natural Resources Limited
+TGH,Terragen Holdings Limited
+TGM,Theta Gold Mines Limited
+TGN,Tungsten Mining Nl
+THL,Tourism Holdings Rentals Limited
+THR,Thor Energy Plc
+TIA,Tian An Australia Limited
+TIO,Temas Resources Corp.
+TIP,Teaminvest Private Group Limited
+TKM,Trek Metals Limited
+TLC,The Lottery Corporation Limited
+TLG,Talga Group Ltd
+TLM,Talisman Mining Limited
+TLS,Telstra Group Limited
+TLX,Telix Pharmaceuticals Limited
+TM1,Terra Metals Limited
+TMB,Tambourah Metals Ltd
+TMK,Tmk Energy Limited
+TML,Timah Resources Limited
+TMS,Tennant Minerals Limited
+TMX,Terrain Minerals Limited
+TNC,True North Copper Limited
+TNE,Technology One Limited
+TNM,Terranova Metals Ltd
+TNY,Tinybeans Group Ltd
+TOK,Tolu Minerals Limited.
+TON,Triton Minerals Ltd
+TOP,Thorney Opportunities Ltd
+TOR,Torque Metals Limited..
+TOT,360 Capital Reit
+TOU,Tlou Energy Limited
+TPC,Tpc Consolidated Limited
+TPG,TPG Telecom Limited
+TPW,Temple & Webster Group Ltd
+TR2,Tali Resources Ltd
+TR8,Tarrina Resources Limited
+TRA,Turners Automotive Group Limited
+TRE,Toubani Resources Limited
+TRI,Trivarx Ltd
+TRJ,Trajan Group Holdings Limited
+TRM,Truscott Mining Corporation Limited
+TRP,Tissue Repair Ltd
+TRU,Truscreen Group Limited
+TSK,Tusker Minerals Ltd
+TSL,Titanium Sands Limited
+TSO,Tesoro Gold Ltd
+TSR,Turnstone Resources Ltd
+TTM,Titan Minerals Limited
+TTT,Titomic Limited
+TTX,Tetratherix Limited
+TUA,Tuas Limited
+TVL,Touch Ventures Limited
+TVN,Tivan Limited
+TWD,Tamawood Limited
+TWE,Treasury Wine Estates Limited
+TWL,Trade Window Holdings Limited
+TWR,Tower Limited
+TXR,Talonx Resources Limited
+TYR,Tyro Payments Limited
+TYX,Tyranna Resources Limited
+TZL,Tz Limited
+TZN,Terramin Australia Limited.
+UBN,Urbanise.Com Limited
+UCM,Uscom Limited
+UM1,Unity Metals Limited
+UNI,Universal Store Holdings Limited
+UNT,Unith Ltd
+UOS,United Overseas Australia Limited
+URF,Us Masters Residential Property Fund
+USC,Us1 Critical Minerals Limited
+USL,Unico Silver Limited
+USM,Union Star Metals Ltd
+UWC,Underwood Capital Limited
+VAL,Valiant Gold Limited
+VAN,Vantage Metals Limited
+VAU,Vault Minerals Limited
+VBC,Verbrec Limited
+VBS,Vectus Biosystems Limited
+VBX,Vbx Limited
+VCX,Vicinity Centres
+VEA,Viva Energy Group Limited
+VEE,Veem Ltd
+VEN,Vintage Energy Ltd
+VFX,Visionflex Group Limited
+VFY,Vitrafy Life Sciences Limited
+VGL,Vista Group International Limited.
+VGN,Virgin Australia Holdings Limited.
+VHL,Vitasora Health Limited
+VHM,Vhm Limited
+VIG,Victor Group Holdings Limited
+VIT,Vitura Health Limited
+VKA,Viking Mines Limited
+VLS,Vita Life Sciences Limited..
+VMC,Venus Metals Corporation Limited
+VML,Vital Metals Limited
+VMM,Viridis Mining And Minerals Limited
+VMS,Venari Minerals Nl
+VMT,Vmoto Limited
+VNL,Vinyl Group Ltd
+VNT,Ventia Services Group Limited
+VPR,Volt Group Limited
+VR1,Vection Technologies Ltd
+VR8,Vanadium Resources Limited
+VRC,Volt Resources Limited
+VRL,Verity Resources Limited
+VRS,Veris Limited
+VRX,Vrx Silica Limited
+VSL,Vulcan Steel Limited
+VSR,Voltaic Strategic Resources Ltd
+VTA,Vita Resources Nl
+VTM,Victory Metals Limited
+VTX,Vertex Minerals Limited
+VUL,Vulcan Energy Resources Limited
+VVA,Viva Leisure Limited
+VYS,Vysarn Limited
+W2V,Way 2 Vat Ltd.
+WA1,Wa1 Resources Ltd
+WAA,Wam Active Limited
+WAF,West African Resources Limited
+WAG,The Australian Wealth Advisors Group Limited
+WAM,Wam Capital Limited
+WAR,Wam Strategic Value Limited
+WAT,Waterco Limited
+WAU,Wa Gold Limited
+WAX,Wam Research Limited
+WBC,Westpac Banking Corporation
+WBT,Weebit Nano Ltd
+WC1,West Cobar Metals Limited
+WC8,Wildcat Resources Limited
+WCE,West Coast Silver Limited
+WCN,White Cliff Minerals Limited
+WDS,Woodside Energy Group Ltd
+WEB,Webbeds Group Limited
+WEC,White Energy Company Limited
+WEL,Winchester Energy Ltd
+WES,Wesfarmers Limited
+WGB,Wam Global Limited
+WGN,Wagners Holding Company Limited
+WGR,Western Gold Resources Limited.
+WGX,Westgold Resources Limited.
+WHC,Whitehaven Coal Limited
+WHF,Whitefield Industrials Limited
+WHI,Whitefield Income Limited
+WHK,Whitehawk Limited
+WIA,Wia Gold Limited
+WIN,Win Metals Ltd
+WJL,Webjet Group Limited
+WLC,Whiterock Lithium Corp.
+WLE,Wam Leaders Limited
+WMA,Wam Alternative Assets Limited
+WMC,Wiluna Mining Corporation Limited
+WMG,Western Mines Group Ltd
+WMI,Wam Microcap Limited
+WMX,Wam Income Maximiser Limited
+WNR,Wingara Ag Ltd
+WNX,Wellnex Life Limited
+WOA,Wide Open Agriculture Ltd
+WOR,Worley Limited
+WOT,Wotso
+WOW,Woolworths Group Limited
+WPR,Waypoint Reit
+WQG,Wcm Global Growth Limited
+WRK,Wrkr Ltd
+WRX,Western Ridge Resources Limited
+WSI,Weststar Industrial Limited
+WSR,Westar Resources Limited
+WTC,WiseTech Global Limited
+WTL,Wt Financial Group Limited
+WTM,Waratah Minerals Limited
+WTN,Winton Land Limited
+WWG,Wiseway Group Limited
+WWI,West Wits Mining Limited
+WYX,Western Yilgarn Nl
+WZR,Wisr Limited
+X2M,X2M Connect Limited
+XEN,Xenitra Limited
+XF1,Xref Limited
+XGL,Xamble Group Limited
+XPD,Xpedra Resources Limited
+XPN,Xpon Technologies Group Limited
+XRA,Xenora Minerals Ltd
+XRF,Xrf Scientific Limited
+XRG,Xreality Group Ltd
+XRO,Xero Limited
+XST,Xstate Resources Limited
+XYZ,"Block, Inc."
+YAL,Yancoal Australia Limited
+YAR,Yari Resources Ltd
+YOJ,Yojee Limited
+YOW,Yowie Group Ltd
+YRL,Yandal Resources Limited
+YUG,Yugo Metals Limited
+ZAG,Zuleika Gold Limited
+ZEO,Zeotech Limited
+ZEU,Zeus Resources Limited
+ZGL,Zicom Group Limited
+ZIM,Zimplats Holdings Limited
+ZIP,Zip Co Limited..
+ZLD,Zelira Therapeutics Limited
+ZMI,Zinc Of Ireland Limited
+ZMM,Zimi Limited
+ZNC,Zenith Minerals Limited
+ZNO,Zoono Group Limited

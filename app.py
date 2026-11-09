@@ -106,7 +106,7 @@ def get_prices(key):
 def save_membership(df):
     data = {
         "updated_at": datetime.now(ZoneInfo("Australia/Brisbane")).isoformat(),
-        "top25": df.nlargest(25, "MCm")["Code"].tolist(),
+        "top50": df.nlargest(50, "MCm")["Code"].tolist(),
         "top300": df.nlargest(300, "MCm")["Code"].tolist(),
     }
     MEMBERSHIP_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
@@ -117,7 +117,7 @@ def load_membership():
     if MEMBERSHIP_FILE.exists():
         try:
             data = json.loads(MEMBERSHIP_FILE.read_text(encoding="utf-8"))
-            if len(data.get("top25", [])) == 25 and len(data.get("top300", [])) == 300:
+            if len(data.get("top50", [])) == 50 and len(data.get("top300", [])) == 300:
                 return data
         except (OSError, ValueError, TypeError):
             pass
@@ -152,20 +152,9 @@ function(params) {
 }
 """)
 
-heat_style = JsCode("""
-function(params) {
-  if (params.value == null || isNaN(params.value)) return {};
-  const v = Number(params.value);
-  const intensity = Math.min(Math.abs(v) / 5, 1);
-  const neutral = [242,244,247];
-  const target = v > 0 ? [22,101,52] : v < 0 ? [153,27,27] : neutral;
-  const rgb = neutral.map((n,i) => Math.round(n + (target[i]-n)*intensity));
-  return {backgroundColor:`rgb(${rgb.join(',')})`, color:intensity >= .58 ? '#fff':'#182230', fontWeight:'700'};
-}
-""")
 
 
-def show_table(data, key, heatmap=False):
+def show_table(data, key):
     if data.empty:
         st.warning("No valid stocks to display.")
         return
@@ -182,7 +171,7 @@ def show_table(data, key, heatmap=False):
                         valueFormatter="value == null ? '—' : (value > 0 ? '+' : '') + Number(value).toFixed(3)", cellStyle=change_style)
     gb.configure_column("ChgPc", header_name="% CHANGE", width=125, type=["numericColumn"],
                         valueFormatter="value == null ? '—' : (value > 0 ? '+' : '') + Number(value).toFixed(2) + '%'",
-                        cellStyle=heat_style if heatmap else change_style)
+                        cellStyle=change_style)
     gb.configure_column("TrdVol", header_name="VOLUME", width=120, type=["numericColumn"],
                         valueFormatter="value == null ? '—' : (Math.abs(value) >= 1e6 ? (value/1e6).toFixed(2)+'M' : Math.abs(value) >= 1e3 ? (value/1e3).toFixed(1)+'K' : Number(value).toLocaleString())")
     gb.configure_column("MCm", header_name="MARKET CAP", width=140, type=["numericColumn"],
@@ -193,8 +182,8 @@ def show_table(data, key, heatmap=False):
     opts["domLayout"] = "normal"
     opts["suppressCellFocus"] = True
     opts["ensureDomOrder"] = True
-    # Start with market-cap order for the Top 25 and daily performance for gainers/losers.
-    sort_field = "MCm" if key == "top25" else "ChgPc"
+    # Start with market-cap order for the Top 50 and daily performance for gainers/losers.
+    sort_field = "MCm" if key == "top50" else "ChgPc"
     opts["columnDefs"] = [dict(c, sort=("asc" if key == "losers" else "desc") if c.get("field") == sort_field else None)
                           for c in opts["columnDefs"]]
     height = min(750, 46 + len(view) * 64 + 12)
@@ -216,26 +205,26 @@ def market_view():
     membership = load_membership()
     if membership is None:
         st.info("No saved company list yet. Use the membership refresh button below to initialise.")
-    if st.button("Refresh Top 25 / Top 300 membership", type="primary"):
+    if st.button("Refresh Top 50 / Top 300 membership", type="primary"):
         if len(prices) < 300:
             st.error(f"Only {len(prices)} companies returned. Membership not changed.")
         else:
             try:
                 membership = save_membership(prices)
-                st.success("Saved Top 25 and Top 300 membership lists.")
+                st.success("Saved Top 50 and Top 300 membership lists.")
             except OSError as exc:
                 st.error(f"Unable to save membership: {exc}")
     if membership is None:
         return
     st.caption("Membership last recalculated: " + membership["updated_at"] +
                " · Price cache: 5 minutes · Click column headings to sort")
-    top25 = prices[prices["Code"].isin(membership["top25"])].copy()
+    top50 = prices[prices["Code"].isin(membership["top50"])].copy()
     universe = prices[prices["Code"].isin(membership["top300"])].dropna(subset=["Price", "ChgPc"])
-    tabs = st.tabs(["Top 25", "Top 10 gainers", "Top 10 losers"])
+    tabs = st.tabs(["Top 50", "Top 10 gainers", "Top 10 losers"])
     with tabs[0]:
-        st.subheader("Top 25 by market capitalisation")
-        st.caption("Daily % change uses a red-to-green heatmap, capped at ±5%.")
-        show_table(top25, "top25", heatmap=True)
+        st.subheader("Top 50 by market capitalisation")
+        st.caption("Daily percentage and dollar changes use matching red/green text on the standard table background.")
+        show_table(top50, "top50")
     with tabs[1]:
         st.subheader("Top 10 gainers — Top 300 universe")
         show_table(universe[universe["ChgPc"] > 0].nlargest(10, "ChgPc"), "gainers")

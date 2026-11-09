@@ -73,7 +73,7 @@ def get_prices(key):
         timeout=45
     )
     response.raise_for_status()
-    data = response.json()
+    raw = response.json()
     if isinstance(raw, dict):
         raw = raw.get('data', raw.get('results', raw))
     if not isinstance(raw, list):

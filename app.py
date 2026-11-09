@@ -62,17 +62,18 @@ except (KeyError, FileNotFoundError):
     st.stop()
 
 @st.cache_data(ttl=300, show_spinner='Retrieving ASX prices…')
+
 def get_prices(key):
-   response = requests.get(
-    API_URL,
-    params={
-        'apikey': key,
-        'col': 'Code,MCm,Price,Chg,ChgPc,Name'
-    },
-    timeout=45
-)
+    response = requests.get(
+        API_URL,
+        params={
+            'apikey': key,
+            'col': 'Code,MCm,Price,Chg,ChgPc,Name'
+        },
+        timeout=45
+    )
     response.raise_for_status()
-    raw = response.json()
+    data = response.json()
     if isinstance(raw, dict):
         raw = raw.get('data', raw.get('results', raw))
     if not isinstance(raw, list):
